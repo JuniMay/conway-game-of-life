@@ -4,6 +4,11 @@
 
 #include <iostream>
 
+// function `log` and SDL usage were modified from 
+// Tyler Brock's implementation of 
+// Conway's Game of Life which is published under MIT license: 
+// https://github.com/TylerBrock/game-of-life
+
 inline void log(const std::string& msg) {
   std::cout << "[  GAME  ] " << msg << std::endl;
 }
